@@ -16,4 +16,4 @@ The following image shows the web application's appearance:
 
 ## Screenshot
 The following link displays the application on the web.
-![screenshot](./images/Portfolio.png)
+![screenshot](./images/myportfoliosnip.png)
