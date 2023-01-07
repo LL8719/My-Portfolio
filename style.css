@@ -193,6 +193,13 @@ nav a:hover {
   
 }
 
+.work-item:hover, article:hover {
+    box-shadow: inset 1px 1px 1px lightblue, 0 0 15px var(--color2);
+    text-shadow: #fff 1px 0 1px
+}
+
+
+
 .surf-container {
     display: flex;
     flex-direction: column;
