@@ -188,14 +188,17 @@ nav a:hover {
     flex: 1 1;
     display: flex;
     align-items: flex-end;
-    padding: 0 0 20px 0;
+    padding: 0 0 5px 0;
     margin: 15px;
+    justify-content: space-between;
   
 }
 
 .work-item:hover, article:hover {
     box-shadow: inset 1px 1px 1px lightblue, 0 0 15px var(--color2);
     text-shadow: #fff 1px 0 1px
+    opacity: 0.5;
+    
 }
 
 
@@ -219,7 +222,7 @@ nav a:hover {
 
 .led-wall {
     flex-grow: 1;
-    background-image: url(./images/Screenshot\ 2023-01-03\ 174459.png);
+    background-image: url(./images/horison.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -227,7 +230,7 @@ nav a:hover {
 
 .calc {
     flex-grow: 1;
-    background-image: url(./images/calculator-385506_960_720.jpg);
+    background-image: url(./images/weather.png);
     background-size: cover;
     background-position: right;
 
@@ -235,15 +238,43 @@ nav a:hover {
 
 .pastel {
     flex-grow: 1;
-    background-image: url(./images/horison.png);
+    background-image: url(./images/scheduler.png);
     background-size: cover;
     background-position: inherit;
 }
 
 .run-buddy {
-    background-image: url(./images/Screenshot\ 2022-12-28\ 171418.png);
+    background-image: url(./images/quiz.png);
     background-size: cover;
     background-position: center;
+}
+
+.hide {
+    display: none;
+    opacity: 3;
+    font-size: 3em;
+    color: #fff;
+    margin-left: 1em;
+    
+    text-shadow: black 1px 0 20px;
+    
+    
+    
+}
+a {
+    text-decoration: none;
+}
+
+.work-item:hover  .hide {
+    display: block;
+    color: #fff;
+    visibility: visible;
+    opacity: 1;
+    
+  }
+
+  .work-item:hover {
+    opacity: 0.5;
 }
 
 .work-item article {
