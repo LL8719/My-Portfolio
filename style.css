@@ -213,7 +213,7 @@ nav a:hover {
     flex-grow: 2;
     max-height: 400px;
     min-height: 400px;
-    background-image: url(./images/wave-1913559_960_720.jpg);
+    background-image: url(./images/project.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -249,29 +249,7 @@ nav a:hover {
     background-position: center;
 }
 
-.hide {
-    display: none;
-    opacity: 3;
-    font-size: 3em;
-    color: #fff;
-    margin-left: 1em;
-    
-    text-shadow: black 1px 0 20px;
-    
-    
-    
-}
-a {
-    text-decoration: none;
-}
 
-.work-item:hover  .hide {
-    display: block;
-    color: #fff;
-    visibility: visible;
-    opacity: 1;
-    
-  }
 
   .work-item:hover {
     opacity: 0.5;
