@@ -216,23 +216,23 @@ nav a:hover {
     background-image: url(./images/project.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     
 }
 
 .led-wall {
     flex-grow: 1;
-    background-image: url(./images/horison.png);
+    background-image: url(./images/passport.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .calc {
     flex-grow: 1;
     background-image: url(./images/weather.png);
     background-size: cover;
-    background-position: right;
+    background-position: top;
 
 }
 
